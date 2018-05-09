@@ -1,3 +1,20 @@
+# forked from skip2/go-qrcode #
+- **Only Changed => version.go:3037**
+- **Original =>**
+```Golang
+    func (v qrCodeVersion) quietZoneSize() int {
+        return 4
+    }
+```
+- **Altered =>**
+```Golang
+    func (v qrCodeVersion) quietZoneSize() int {
+        return 0
+    }
+```
+# I just don't like the edge, just this #
+# Thanks to the original author and all open source developers #
+
 # go-qrcode #
 
 <img src='https://skip.org/img/nyancat-youtube-qr.png' align='right'>
